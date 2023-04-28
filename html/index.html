@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
+    <link rel="stylesheet" href="/css/sweetalert2.min.css">
+
+
+    <title>Carrito New Game</title>
+</head>
+
+
+<body style="background-color: rgb(22, 22, 22);">
+
+    <header>
+        <div class="container">
+            <div class="row align-items-stretch justify-content-between">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <a class="navbar-brand" href="#">New Game store</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                 
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                
+                                <img src="../image/carrito.png" class="nav-link dropdown-toggle img-fluid" height="70px"
+                                    width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"></img>
+                                <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                                    <table id="lista-carrito" class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                                    <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                                        Compra</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 style="color: aliceblue; margin-top: 40px;">Lista de Productos</h1>
+        </div>
+<!-- ------------------------------------------Prouctos precargados --------------------------------------------------- -->
+        <div class="container" id="lista-productos">
+            
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">The las of us p1</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_280x437/public/media/image/2022/07/last-us-parte-i-cartel-2756889.jpg?h=97ffafbb&itok=LTD_TCv4" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">700</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>Accion</li>
+                            <li>Edición normal</li>
+                            
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Bioshock Infinite </h4>
+                    </div>
+                    <div class="card-body">
+                        <img id="imaginador" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/950/public/media/image/2012/12/198860-bioshock-infinite-vs-su-caratula-segundo-asalto.jpg?itok=FBo1Gunj" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">300</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>Aventura</li>
+                            <li>premium edition</li>
+                            
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="2">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Fallout 4</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="http://www.edicioncoleccionista.com/wp-content/uploads/2015/12/The-Art-of-Fallout-4-de-Bethesda-Softworks.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">320</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>Sand Box aventura</li>
+                            <li>Normal edition</li>
+                            
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="3">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Metal Gear Solid 3</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://im.ziffdavisinternational.com/ign_es/screenshot/default/60225-metal-gear-solid-3-subsistence-playstation-2_umwf.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">300</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>Aventura</li>
+                            <li>gold edition</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="4">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">The Sky Crawlers: Innocent Aces (2008)</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://im.ziffdavisinternational.com/ign_es/screenshot/default/me0001197487-2-15a5e07_6wv8.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">5769</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>Exclusivo Wii</li>
+                            <li>Aventura Aereo</li>
+                            </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="5">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Diablo 2</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://cdn.tutsplus.com/cdn-cgi/image/width=600/psd/uploads/legacy/psdtutsarticles/linkb_60vgamecovers/45.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">920</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>Miedo</li>
+                            <li>Shonen</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="6">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/sweetalert2.min.js"></script>
+    <script src="/js/carrito.js"></script>
+    <script src="/js/pedido.js"></script>
+
+</body>
+</html>

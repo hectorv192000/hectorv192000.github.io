@@ -1,0 +1,595 @@
+body{
+    background-color: rgb(22, 22, 22);
+}
+.navegador{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    display: inline-block;
+    display: flex;
+
+
+
+}
+#cabecera{
+    height: 50px;
+    width: 15%;
+    display: inline-block;
+    padding-left: 20px;
+}
+#logo{
+    height: 65px;
+    width: 180px;
+}
+.nav-link{
+    color: white;
+    /*font-weight: bold;*/
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -18px;
+    display: flex;
+    box-shadow: 0 0 90px rgb(0, 0, 0);
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul{
+    margin-left: 790px;
+}
+#imgcarrito{
+    height: 40px;
+    width: 40px;
+    margin-top: -50px;
+    margin-left: 360px;
+    display: flex;
+}
+.container{
+    background: linear-gradient(to bottom, #b70000, #2e0000);
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner{
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 90px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.boton {
+	background-color: #000000a9;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#infoban{
+	background-color: #33333300;
+    color: #ffffff;
+    margin-top: -300px;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+footer {
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    .loguito{
+        width: 40px;
+        box-shadow: 0 0 90px rgb(0, 0, 0);;
+
+    }
+.info{
+    width: 80%;
+    height: 300px;
+    background-color: rgba(22, 22, 22, 0.692);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 90px rgb(0, 0, 0);
+    margin-top: 200px;
+
+}
+#infoban{
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.info2{
+    width: 80%;
+    height: 490px;
+    background-color: rgba(22, 22, 22, 0.692);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 90px rgb(0, 0, 0);
+
+
+}
+.ii1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.592);
+}
+
+.ii2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.recuadro {
+    display: block;
+    background-color: rgb(39, 39, 39);
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ff0000;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 50px rgba(255, 0, 0, 0.708);
+    border-radius: 10px;
+  }
+  
+  /* Estilos para las imágenes */
+  .recuadro img {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.592);
+    border-radius: 10px;
+  }
+  
+  /* Estilos para los nombres de los productos */
+  .recuadro h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  /* Estilos para los precios de los productos */
+  .recuadro p {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+ .tit1{
+    display: block;
+    color: white;
+    font-size: 40px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.592);
+    
+ }
+
+ .cardetju{
+    display: inline-block;
+    width: 85%;
+    height: 600px;
+    background-color: #191919;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(216, 0, 0);
+    border-radius: 10px;
+ }
+ .imgdet{
+    margin-top: 26px;
+    display: inline-block;
+    width: 350px;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: -700px;
+ }
+ 
+ .titjudet{
+    position: absolute;
+    margin-left: 130px;
+    display: inline-block;
+    font-size: 60px;
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+
+ .genjuedet{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: -390px;
+    margin-left: 40%;
+ }
+ .prejuedet{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: -340px;
+    margin-left: 40%;
+ }
+ .desjuedet{
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-wrap: break-word;
+    margin-left: 610px;
+    margin-top: -280px;
+    padding-right: 100px;
+    text-align: left;
+ }
+ .comprar{
+    margin-left: 460px;
+    margin-top: 80px;
+    font-size: 15px;
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: #191919;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+ }
+
+
+ /**************ADMINISTRADOR*****************/
+
+ .cajaAlta{
+    width: 50%;
+    background-color: rgb(25, 25, 25);
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 1.2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+
+.idj{
+    margin-left: 30px;
+}
+.nj{
+    margin-left: 70px;
+}
+.pj{
+    margin-left: 83px;
+}
+.gj{
+    margin-left: 75px;
+}
+.prj{
+    margin-left: 70px;
+}
+.buttonañ{
+    color: #fff;
+    background-color: #191919;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    margin-left: 138px;
+}
+.containerañ{
+    background: linear-gradient(to bottom, #b70000, #2e0000);
+    height: 540px;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.tit111{
+    margin-left: 300px;
+}
+.imgnew{
+    position: absolute;
+    width: 150px;
+    margin-left: 300px;
+    margin-top: -220px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.tabju{
+    width: 95%;
+    table-layout: fixed;
+}
+.tabla1{
+    width: 80%;
+    background-color: #ffffff70;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    border-radius: 10px;
+    display: none;
+    
+}
+.tabla1 th {
+    color: white;
+    background-color: #191919;
+}
+.tabla1 td {
+color: #fff;
+text-align: center;
+background-color: #2a2a2a;
+}
+.imgtab{
+    width: 50px;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.botborr{
+    color: #ffffff;
+    background-color: #b70000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+.boted{
+    color: #fff;
+    background-color: #181818;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.cajaAlta1{
+    width: 50%;
+    background-color: rgb(25, 25, 25);
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 1.2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cajaAlta1 img{
+    margin-top: -185px;
+}
+.marcodetalle{
+    width: 80%;
+    height: auto;
+    background-color: #191919;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    margin:  0 auto;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.marcodetalle h1{
+    display: inline-block;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.fm1{
+    margin-left: -100px;
+}
+.procarrp{
+    background-color: #ffffffb0;
+    width: 80%;
+    height: 40px;
+}
+.pro1{
+    width: 80%;
+    table-layout: fixed;
+    background-color: #ffffff70;
+    margin-left: 120px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+.comprarf{
+    width: 200px;
+    height: 50px;
+    background-color: #ff3131;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgb(255, 65, 65);
+}
+.factura{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    background-color: #222222;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(1, 1, 1);
+
+}
+.factura h1{
+   font-size: 30px;
+}
+.carrlat{
+    background-color: #2a2a2a;
+    width: 430px;
+    height: autopx;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+.tabju1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: inline-block;
+    width: 90%;
+    table-layout: fixed;
+    background-color: #ffffff5f;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.instcarr{
+    max-width: 100%;
+  table-layout: fixed;
+  
+}
+
+/*******************   MODALES   Esther   ********************/
+.cajaAlta1
+{
+    display: none;
+}
+
+.tabla1
+{
+    display: block;
+}
+
+
+
+/*******************MODALES********************/
+.cajaAlta1
+{
+    display: none;
+}
+
+.tabla1
+{
+    display: block;
+}
+
+
+.tablas
+{
+    display: block;
+}
+
+/******************GALERÍA********************/
+.tarjetita 
+{
+    display: block;
+    background-color: rgb(39, 39, 39);
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem  ;
+    border: 1px solid #ff0000;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 50px rgba(255, 0, 0, 0.708);
+    border-radius: 10px; 
+  }
+  
+  /* Estilos para las imágenes */
+  .tarjetita img 
+  {
+    display: block;
+    margin: 0 auto;
+    width: 130px;                                /*Saulo cambio el hecho de tener px limitado a un tamaño automatico */
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.592);
+    border-radius: 10px;
+  }
+  
+  /* Estilos para los nombres de los productos */
+  .tarjetita h2 
+  {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  /* Estilos para los precios de los productos */
+  .tarjetita p 
+  {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .boted1
+  {
+    color: #fff;
+    background-color: #8b2121;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+#tarjetita .boted1
+{
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #222222;
+    display: flex;
+}
+
+/*******************DISEÑO DE MODAL DETALLE***************************/
+.modalDetalle
+  {
+    position: fixed;
+    z-index: 1;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    display: none;
+  }
+  
+  
+  .modalDetalle img 
+  {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .modalDetalle h2 
+  {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .modalDetalle p 
+  {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left ;
+  }
+  
+  .modal button 
+  {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal button:hover 
+  {
+    background-color: #555;
+  }

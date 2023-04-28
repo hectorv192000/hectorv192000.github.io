@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de compra</title>
+    <link rel="stylesheet" href="../css/estilosgen.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/png" href="../image/newgamelogo.png">
+</head>
+<body>
+    <nav class="navegador">
+        <a id="cabecera" href="/index.html">
+        <img id="logo" src="../image/ngstore.png" href="./index.html" alt="">
+        </a>
+            <ul>
+                <li>
+                    <a class="nav-link" href="../index.html">inicio</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./juegos.html">juegos</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./admin.html">administrador</a>
+                </li>
+
+        <img id="imgcarrito" src="../image/carrito.png" alt="">
+                    
+                
+            </ul>
+    </nav>
+       
+    <section class="container">
+        <br><br><br>
+
+        <article class="marcodetalle">
+
+            <h1>Tu Carrito</h1>
+
+            <form>
+
+                <div class="fm1">
+                <label for="nombre-completo">Nombre completo:</label>
+                <input type="text" id="nombre-completo" name="nombre-completo" required>
+                </div>
+
+                <br>
+                
+                <div class="fm2">
+                <label for="pais">País:</label>
+                <input type="text" id="pais" name="pais" required>
+                </div>
+
+                <br>
+                
+                <div class="fm3">
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+                </div>
+                
+                <br>
+                
+                <div class="fm4">
+                <label for="correo-electronico">E mail:</label>
+                <input type="email" id="mail" name="mail" required>
+                </div>
+                
+              </form>
+              <br>
+              <table class="pro1">
+                <tr>
+
+                  <td><img class="imgtab" src="http://www.edicioncoleccionista.com/wp-content/uploads/2015/12/The-Art-of-Fallout-4-de-Bethesda-Softworks.jpg" alt="Portada del producto"></td>
+                  <td>Nombre del producto</td>
+                  <td>Acción</td>
+                  <td>$50.00</td>
+                  <td><button class="botborr">Borrar</button>
+
+                </tr>
+              </table>
+              <br>
+              <button class="comprarf">Realizar Compra</button>
+              <br><br>
+
+
+        </article>
+        
+        <br><br>
+    </section>
+
+    <footer>
+        <img class="loguito" src="../image/newgamelogo.png" alt="">
+		<p class="infofoo">Derechos reservados 2023 &copy; NEW GAME STORE</p>
+	</footer>
+    <script src="../js/carrito.js"></script>
+</body>
+</html>

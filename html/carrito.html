@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="../css/estilosgen.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/png" href="../image/newgamelogo.png">
+</head>
+<body>
+    <nav class="navegador">
+        <a id="cabecera" href="/index.html">
+        <img id="logo" src="../image/ngstore.png" href="./index.html" alt="">
+        </a>
+            <ul>
+                <li>
+                    <a class="nav-link" href="../index.html">inicio</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./juegos.html">juegos</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./admin.html">administrador</a>
+                </li>
+
+        <img id="imgcarrito" src="../image/carrito.png" alt="">
+                    
+                
+            </ul>
+    </nav>
+       
+    <article class="container">
+        <br><br>
+
+        <section class="carrlat">
+            <br><br><br>
+            <h1 class="tit1">Mi Carrito</h1>
+            
+        
+            <table class="tabju1">
+                <tr>
+                  <td><img class="imgtab" src="http://www.edicioncoleccionista.com/wp-content/uploads/2015/12/The-Art-of-Fallout-4-de-Bethesda-Softworks.jpg" alt="Portada del producto"></td>
+                  <td>Nombre del producto</td>
+                  <td>$50.00</td>
+                  <td><button class="botborr">Borrar</button>
+                </tr>
+              </table>
+              <br><br>
+
+              <input class="buttonañ" type="button" id="botonAñadir" value="Comprar">
+              <br><br>
+
+
+        </section>
+        
+        <br><br>
+    </article>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="./css/carrito.css">
+        <title>Carrito</title>
+    </head>
+    <body> 
+        <div id="caja" >
+        <h1>"Detalles Del Carrito"</h1>
+        <a href="./galeria.html">
+            <button id="botones">seguir comprando</button>
+        </a>
+        <div id="productos-carrito"></div>
+        <p>Total: $<span id="total"></span></p>
+        <button id="vaciar" onclick="vaciarCarrito()">Vaciar carrito🛒</button>
+    
+        
+        <div id="productos-carrito"></div>
+        <div id="resumen-compra"></div>
+      <div id="formulario">
+        <form id="factura-form">
+            <label for="nombre" class="formulario" >Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required> <br> <br>    
+          
+            <label for="direccion" class="formulario">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required> <br> <br>
+          
+            <label for="ciudad" class="formulario">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required> <br> <br>
+          
+            <label for="telefono" class="formulario">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required> <br> <br> 
+          
+            <button id="factura" type="submit">Generar factura</button>
+          </form>
+      </div>
+          
+        
+    
+        <script src="../js/carrito.js"></script>
+    
+        <img src="" alt="">
+    </div>
+    </body>
+    </html>
+    
+    <footer>
+        <img class="loguito" src="../image/newgamelogo.png" alt="">
+		<p class="infofoo">Derechos reservados 2023 &copy; NEW GAME STORE</p>
+	</footer>
+</body>
+</html>

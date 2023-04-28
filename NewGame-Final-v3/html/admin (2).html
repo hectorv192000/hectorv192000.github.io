@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="../css/estilosgen.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/png" href="../image/newgamelogo.png">
+</head>
+
+<body>
+    <nav class="navegador">
+        <a id="cabecera" href="/index.html">
+        <img id="logo" src="../image/ngstore.png" href="./index.html" alt="">
+        </a>
+            <ul>
+                <li>
+                    <a class="nav-link" href="../index.html">inicio</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./juegos.html">juegos</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./admin.html">administrador</a>
+                </li>
+
+        <img id="imgcarrito" src="../image/mas.png" alt="" onclick="ver()">     
+            </ul>
+    </nav>
+       
+       <!-- CAPTURA DE PRODUCTOS -->
+    <section class="containerañ">
+        <br><br><br><br>
+        <center>
+            <div class="cajaAlta" id="ventanaModal">
+                
+                <div class="captura">
+                    <h2 class="tit111">Agregar Juego</h2>
+                    
+                    <form>
+                        <div class="idj">
+                        <label>ID del Juego</label>
+                        <input type="text" id="ID_jue" name="id_jue">
+                        </div>
+                        <br>
+
+                        <div class="nj">
+                        <label>Nombre</label>
+                        <input type="text" id="Nom_jue" name="nom_jue">
+                        </div>
+                        <br>
+
+                        <div class="nj">
+                        <label>Descripción</label>
+                        <input type="text" id="Des_jue" name="des_jue">
+                        </div>
+                        <br>
+        
+                        <div class="pj">
+                        <label>Precio</label>
+                        <input type="text" id="Pre_jue" name="Pre_jue">
+                        </div>
+                        <br>
+
+                        <div class="pj">
+                            <label>Cantidad</label>
+                            <input type="text" id="Exis_jue" name="Exis_jue">
+                            </div>
+                        <br>
+        
+                        <div class="gj">
+                        <label>Genero</label>
+                        <input type="text" id="Genero" name="genero">
+                        </div>
+                        <br>
+        
+                        <div class="prj">
+                        <label>Portada</label>
+                        <input type="text" id="Port_juego" name="port_juego">
+                        </div>
+                        <br>
+                        <img class="imgnew" src="http://www.edicioncoleccionista.com/wp-content/uploads/2015/12/The-Art-of-Fallout-4-de-Bethesda-Softworks.jpg" alt="Producto 3">
+        
+                        <input class="buttonañ" type="button" id="AgregarBoton" value="Añadir" onclick="Agregardesaparecer()">
+
+                    </form>
+                    <br>
+                    
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="cajaAlta1" id="ventanaEditarModal">
+                
+                <div class="captura">
+                    <h2 class="tit111">Editar Juego</h2>
+                    
+                    <form>
+
+                        <div class="nj">
+                        <label>Nombre</label>
+                        <input type="text" id="Edit_nom" name="Edit_nom">
+                        </div>
+                        <br>
+
+                        <div class="nj">
+                            <label>Descripción</label>
+                            <input type="text" id="Edit_desc" name="Edit_desc">
+                            </div>
+                            <br>
+        
+                        <div class="pj">
+                        <label>Precio</label>
+                        <input type="text" id="Edit_pre" name="Edit_pre">
+                        </div>
+                        <br>
+        
+                        <div class="gj">
+                        <label>Genero</label>
+                        <input type="text" id="Edit_gen" name="Edit_gen">
+                        </div>
+                        <br>
+        
+                        <div class="prj">
+                        <label>Portada</label>
+                        <input type="text" id="Edit_port" name="Edit_port">
+                        </div>
+                        <br>
+                        <img class="imgnew" src="http://www.edicioncoleccionista.com/wp-content/uploads/2015/12/The-Art-of-Fallout-4-de-Bethesda-Softworks.jpg" alt="Producto 3">
+        
+                        <input class="buttonañ" type="button" id="editarBoton" value="Editar" onclick="Editardesaparecer()">
+                    </form>
+                    <br>
+                </div>
+            </div>
+
+
+            <div class="tabla1" id="tablaProductos" >
+                <br>
+                
+                <table class="contenedorVideojuegos">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Nombre</th>
+                      <th>Descripción</th>
+                      <th>Precio</th>
+                      <th>Cantidad</th>
+                      <th>Género</th>
+                      <th>Portada</th>
+                      <th>Acciones</th>
+                    </tr>
+                  </thead>
+                    
+                    <tbody class="mostrarVideojuegos" id="mostrarVideojuegos" id="borrarVideojuegos">
+                        <tr>
+                            <td>
+                                <button class="botborr" id="eliminarBoton">Borrar</button>
+                                <button class="boted" id="botonEditar" onclick="verEditar()">Editar</button>
+                            </td>
+                        <td>  
+
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </center>
+            <br><br>
+
+
+              <!-- Mostrar el mensaje -->
+                <div class="contenedorMensaje">
+                    <div id="alerta"></div>
+                </div>
+
+    </section>  
+
+    <footer>
+        <img class="loguito" src="../image/newgamelogo.png" alt="">
+		<p class="infofoo">Derechos reservados 2023 &copy; NEW GAME STORE</p>
+	</footer>
+    <script src="../js/administrador.js"></script>
+</body>
+</html>
